@@ -1,7 +1,1 @@
-echo "# Tower" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/matuskocis0000-del/Tower.git
-git push -u origin main
+unzip -o 
