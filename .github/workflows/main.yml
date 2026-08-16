@@ -1,6 +1,5 @@
 name: Build Geode Mod
 on: [push, pull_request]
-
       fail-fast: true
       matrix:
         config:
