@@ -1,10 +1,7 @@
 name: Build Geode Mod
-on: [push, pull_request]
+on: [push, pull_request]     
 
-jobs:
-  build:
-    strategy:
-      fail-fast: false
+    strategy: defaults:
       matrix:
         config:
         - name: Windows
